@@ -39,10 +39,7 @@
 	</properties>
 	<!-- 多模块-->
 	<modules>
-		<module>sb-service</module>
 		<module>sb-web</module>
-		<module>sb-dao</module>
-		<module>sb-common</module>
 		<module>sb-dubbo-provider</module>
 		<module>sb-dubbo-interface</module>
 	</modules>

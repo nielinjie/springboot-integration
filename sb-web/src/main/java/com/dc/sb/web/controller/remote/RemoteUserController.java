@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class RemoteUserController {
 
     //timeout 可以不指定，但是version一定要指定 不然会找不到服务 直连需要加url="dubbo://localhost:20880"
-    @Reference(version = "1.0.0")
+    @Reference
+            (version = "1.0.0", application = "dubbo-spring-boot-starter")
     private RemoteUserService remoteUserService;
 
 
